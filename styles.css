@@ -10,6 +10,83 @@
     padding: 20px;
 }
 
+
+body {
+    background-image: url('wt.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+
+    background-image: url('txtbg.jpg');  
+    background-size: cover;  
+    background-position: center;  
+    color: #FFFFFF;  
+    padding: 20px 10px;  
+    
+}
+
+header h1, nav a {
+    color: #171111;
+}
+
+nav a:hover, nav a.active {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px; 
+    padding: 10px; 
+}
+.dropdown-content {
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 5px; 
+}
+.dropdown-content a {
+    color: #FFFFFF;
+}
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+ 
+h1, h2, h3 {
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    line-height: 1.2;  
+}
+
+ 
+p {
+    margin-top: 10px;  
+    margin-bottom: 20px; 
+    line-height: 1.6; 
+}
+
+ 
+.section-below-classification p, .additional-info p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+ 
+.main-content {
+    padding: 20px; 
+}
+
+ 
+.container, .section-below-classification {
+    padding: 20px;  
+    margin-top: 20px;  
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
