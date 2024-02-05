@@ -1,19 +1,15 @@
-/* Basic reset for styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styling for the container */
 .container {
-    width: 100%; /* This makes the container width flexible */
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
 
-
-/* Styling for header */
 header {
     display: flex;
     justify-content: space-between;
@@ -27,7 +23,6 @@ header h1 {
     font-weight: normal;
 }
 
-/* Navigation styles */
 nav ul {
     list-style: none;
     display: flex;
@@ -47,7 +42,6 @@ nav a.active {
     color: #007bff;
 }
 
-/* Main content area styling */
 main {
     display: flex;
     margin-top: 20px;
@@ -87,27 +81,23 @@ main {
     border-radius: 5px;
 }
 
-/* Positioning the dropdown container relative to its parent */
 nav ul li.dropdown {
     position: relative;
 }
 
-/* Hiding the dropdown content by default */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px; /* Adjust width as needed */
+    min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
-/* Displaying the dropdown content on hover */
 nav ul li.dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Styling for dropdown links */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -115,7 +105,6 @@ nav ul li.dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Changing the background color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
@@ -130,23 +119,22 @@ nav ul li.dropdown:hover .dropdown-content {
 .card {
     width: 40%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow effect */
-    border-radius: 10px; /* Rounded corners */
-    overflow: hidden; /* Ensures the image doesn't break the border radius */
-}
+    border-radius: 10px; 
+    overflow: hidden; 
 
 .card-image {
-    height: 150px; /* Adjust height as necessary */
+    height: 150px;
     background-size: cover;
     background-position: center;
 }
 
 .card-content {
     padding: 10px;
-    background-color: #fff; /* Card background */
+    background-color: #fff;
 }
 
 .course-code, .semester{
-    margin-bottom: 10px; /* Spacing between text */
+    margin-bottom: 10px; 
 }
 
 .card:nth-child(1) .card-image { background-image: url('11.jpeg'); }
@@ -184,18 +172,18 @@ nav ul li.dropdown:hover .dropdown-content {
     }
 
     header h1 {
-        font-size: 28px; /* Increase for larger display */
+        font-size: 28px;
     }
 
     .main-content, .sidebar {
-        padding: 30px; /* Increase internal padding */
+        padding: 30px;
     }
 
     .card {
-        width: 30%; /* Adjust based on preference */
+        width: 30%;
     }
 
     nav ul li {
-        margin-left: 30px; /* Increase spacing */
+        margin-left: 30px; 
     }
 }
