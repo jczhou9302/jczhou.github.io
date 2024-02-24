@@ -196,10 +196,10 @@ nav ul li.dropdown:hover .dropdown-content {
 
 .card {
     width: 40%;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow effect */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
     border-radius: 10px; 
     overflow: hidden; 
-
+}
 .card-image {
     height: 150px;
     background-size: cover;
