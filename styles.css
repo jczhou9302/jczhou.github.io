@@ -215,8 +215,8 @@ nav ul li.dropdown:hover .dropdown-content {
     margin-bottom: 10px; 
 }
 
-.card:nth-child(1) .card-image { background-image: url('11.jpeg'); }
-.card:nth-child(2) .card-image { background-image: url('111.jpeg'); }
+.card:nth-child(1) .card-image { background-image: url('apple.jpg'); }
+.card:nth-child(2) .card-image { background-image: url('grape.jpg'); }
 
 @media (max-width: 768px) {
     header {
